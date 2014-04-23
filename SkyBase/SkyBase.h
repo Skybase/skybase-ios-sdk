@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface SkyBase : NSObject
-
++(void)getUserNameInBackground:(void (^)(NSString *))callback;
 @end
