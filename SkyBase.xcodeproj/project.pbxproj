@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5CB27701908483C0090043B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CB276F1908483C0090043B /* Foundation.framework */; };
+		C5CB27751908483C0090043B /* SkyBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C5CB27741908483C0090043B /* SkyBase.h */; };
+		C5CB27771908483C0090043B /* SkyBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB27761908483C0090043B /* SkyBase.m */; };
+		C5CB277E1908483C0090043B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CB277D1908483C0090043B /* XCTest.framework */; };
+		C5CB277F1908483C0090043B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CB276F1908483C0090043B /* Foundation.framework */; };
+		C5CB27811908483C0090043B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CB27801908483C0090043B /* UIKit.framework */; };
+		C5CB27841908483C0090043B /* libSkyBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CB276C1908483C0090043B /* libSkyBase.a */; };
+		C5CB278A1908483C0090043B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5CB27881908483C0090043B /* InfoPlist.strings */; };
+		C5CB278C1908483C0090043B /* SkyBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB278B1908483C0090043B /* SkyBaseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5CB27821908483C0090043B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5CB27641908483C0090043B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5CB276B1908483C0090043B;
+			remoteInfo = SkyBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C5CB276A1908483C0090043B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C5CB27751908483C0090043B /* SkyBase.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C5CB276C1908483C0090043B /* libSkyBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSkyBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CB276F1908483C0090043B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5CB27731908483C0090043B /* SkyBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SkyBase-Prefix.pch"; sourceTree = "<group>"; };
+		C5CB27741908483C0090043B /* SkyBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyBase.h; sourceTree = "<group>"; };
+		C5CB27761908483C0090043B /* SkyBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkyBase.m; sourceTree = "<group>"; };
+		C5CB277C1908483C0090043B /* SkyBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CB277D1908483C0090043B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C5CB27801908483C0090043B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C5CB27871908483C0090043B /* SkyBaseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkyBaseTests-Info.plist"; sourceTree = "<group>"; };
+		C5CB27891908483C0090043B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5CB278B1908483C0090043B /* SkyBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkyBaseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5CB27691908483C0090043B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB27701908483C0090043B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB27791908483C0090043B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB27841908483C0090043B /* libSkyBase.a in Frameworks */,
+				C5CB277E1908483C0090043B /* XCTest.framework in Frameworks */,
+				C5CB27811908483C0090043B /* UIKit.framework in Frameworks */,
+				C5CB277F1908483C0090043B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5CB27631908483C0090043B = {
+			isa = PBXGroup;
+			children = (
+				C5CB27711908483C0090043B /* SkyBase */,
+				C5CB27851908483C0090043B /* SkyBaseTests */,
+				C5CB276E1908483C0090043B /* Frameworks */,
+				C5CB276D1908483C0090043B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5CB276D1908483C0090043B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB276C1908483C0090043B /* libSkyBase.a */,
+				C5CB277C1908483C0090043B /* SkyBaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5CB276E1908483C0090043B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB276F1908483C0090043B /* Foundation.framework */,
+				C5CB277D1908483C0090043B /* XCTest.framework */,
+				C5CB27801908483C0090043B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5CB27711908483C0090043B /* SkyBase */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB27741908483C0090043B /* SkyBase.h */,
+				C5CB27761908483C0090043B /* SkyBase.m */,
+				C5CB27721908483C0090043B /* Supporting Files */,
+			);
+			path = SkyBase;
+			sourceTree = "<group>";
+		};
+		C5CB27721908483C0090043B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB27731908483C0090043B /* SkyBase-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5CB27851908483C0090043B /* SkyBaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB278B1908483C0090043B /* SkyBaseTests.m */,
+				C5CB27861908483C0090043B /* Supporting Files */,
+			);
+			path = SkyBaseTests;
+			sourceTree = "<group>";
+		};
+		C5CB27861908483C0090043B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5CB27871908483C0090043B /* SkyBaseTests-Info.plist */,
+				C5CB27881908483C0090043B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5CB276B1908483C0090043B /* SkyBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CB278F1908483C0090043B /* Build configuration list for PBXNativeTarget "SkyBase" */;
+			buildPhases = (
+				C5CB27681908483C0090043B /* Sources */,
+				C5CB27691908483C0090043B /* Frameworks */,
+				C5CB276A1908483C0090043B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyBase;
+			productName = SkyBase;
+			productReference = C5CB276C1908483C0090043B /* libSkyBase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C5CB277B1908483C0090043B /* SkyBaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CB27921908483C0090043B /* Build configuration list for PBXNativeTarget "SkyBaseTests" */;
+			buildPhases = (
+				C5CB27781908483C0090043B /* Sources */,
+				C5CB27791908483C0090043B /* Frameworks */,
+				C5CB277A1908483C0090043B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5CB27831908483C0090043B /* PBXTargetDependency */,
+			);
+			name = SkyBaseTests;
+			productName = SkyBaseTests;
+			productReference = C5CB277C1908483C0090043B /* SkyBaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5CB27641908483C0090043B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Applifica;
+			};
+			buildConfigurationList = C5CB27671908483C0090043B /* Build configuration list for PBXProject "SkyBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5CB27631908483C0090043B;
+			productRefGroup = C5CB276D1908483C0090043B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5CB276B1908483C0090043B /* SkyBase */,
+				C5CB277B1908483C0090043B /* SkyBaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5CB277A1908483C0090043B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB278A1908483C0090043B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5CB27681908483C0090043B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB27771908483C0090043B /* SkyBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CB27781908483C0090043B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB278C1908483C0090043B /* SkyBaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5CB27831908483C0090043B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5CB276B1908483C0090043B /* SkyBase */;
+			targetProxy = C5CB27821908483C0090043B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5CB27881908483C0090043B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5CB27891908483C0090043B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5CB278D1908483C0090043B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5CB278E1908483C0090043B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5CB27901908483C0090043B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SkyBase.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkyBase/SkyBase-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5CB27911908483C0090043B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SkyBase.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkyBase/SkyBase-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C5CB27931908483C0090043B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkyBase/SkyBase-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SkyBaseTests/SkyBaseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C5CB27941908483C0090043B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkyBase/SkyBase-Prefix.pch";
+				INFOPLIST_FILE = "SkyBaseTests/SkyBaseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5CB27671908483C0090043B /* Build configuration list for PBXProject "SkyBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CB278D1908483C0090043B /* Debug */,
+				C5CB278E1908483C0090043B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5CB278F1908483C0090043B /* Build configuration list for PBXNativeTarget "SkyBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CB27901908483C0090043B /* Debug */,
+				C5CB27911908483C0090043B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5CB27921908483C0090043B /* Build configuration list for PBXNativeTarget "SkyBaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CB27931908483C0090043B /* Debug */,
+				C5CB27941908483C0090043B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5CB27641908483C0090043B /* Project object */;
+}
