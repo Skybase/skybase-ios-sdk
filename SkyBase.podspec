@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SkyBase"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "SkyBase iOS SDK"
 
   s.description  = <<-DESC
