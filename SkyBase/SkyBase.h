@@ -10,4 +10,5 @@
 
 @interface SkyBase : NSObject
 +(void)getUserNameInBackground:(void (^)(NSString *))callback;
++(void)createUserInBackground:(NSDictionary*)userData withBlock:(void (^)(NSString *))callback;
 @end
